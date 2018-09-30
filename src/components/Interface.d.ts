@@ -3,5 +3,6 @@ interface AppProps {
 }
 
 interface AppState {
-    timeLine: string
+    deadLine: string,
+    newDeadLine: string
 }
