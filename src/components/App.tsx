@@ -6,7 +6,7 @@ export default class App extends Component<AppProps, AppState, any> {
     constructor(props: AppProps) {
         super(props)
         this.state = {
-            deadLine: 'December 25, 2017',
+            deadLine: 'December 25, 2018',
             newDeadLine: ''
         }
     }
@@ -20,7 +20,7 @@ export default class App extends Component<AppProps, AppState, any> {
                 <div className='tittle'>CountDown to {this.state.deadLine}</div>
                 <Clock deadline = {deadLine}/>
                 <div>
-                    <input placeholder='New date'
+                    <input placeholder = {deadLine}
                         onChange={e => this.setState({newDeadLine: e.target.value})}/>
                     <button onClick={() => this.changeDeadLine()}>Submit</button>
                 </div>
