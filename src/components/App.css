@@ -1,5 +1,11 @@
+.tittle {
+    font-weight: bold;
+}
 .mainContainer {
     text-align: center;
     font-size: 35px;
     margin-top: 20%
+}
+.button-input {
+    margin: 0px 10px
 }
