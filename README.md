@@ -7,11 +7,11 @@ Hi, this is the development of a simple exercise proposed in the course of **'Re
 # Installation and execution
 
 To run this little application you just need:
-> Node
-> ReactJS CLI
-> Clone the repository
-> Install dependencies
-> And Run ''npm start"
+> - Node
+> - ReactJS CLI
+> - Clone the repository
+> - Install dependencies
+> - And Run ''npm start"
 
 ## Create by
 
